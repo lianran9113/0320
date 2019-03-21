@@ -1,0 +1,174 @@
+  <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>	
+	
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="top">		
+					<div class="top_1"><!--左侧-->
+						<span>
+							<a href="index.html">商城首页</a>
+						</span>
+						<span>Hi~欢迎来到Z商城，请
+							<a href="../../login_denglu/html/denglu.html">登录</a>
+						</span>
+						<span>
+							<a href="../../zhuce/html/zhuce.html">免费注册</a>
+						</span>
+					</div>
+								<!--右侧-->
+				<ul class="top_2">
+					<li><a href="#" class="didi">我的订单</a></li>
+					<li class="no-de"><a href="#">买家中心</a></li>
+					<li><a href="#">购物车0件</a></li>
+					<li class="border"><a href="#">帮助中心</a></li>
+					<li class="shou"><i class="iconfont">&#xe61b;</i><a href="#">手机商城<span class="iconfont">&#xe665;</span><p><img src="01_images/shop_wechat.png"/></p></a></li>				
+					<li><a href="#">中关村在线</a></li>
+					<li><a href="#">招商合作</a></li>				
+					<li class="li_last"><a href="#">联系客服</a><p>400-688-1999</p></li>			
+				</ul>
+			</div>			
+		</div>
+	<!--	第二部分-->		
+	<div id="logo">		
+			<div class="logoh">				
+						<p class="logoLeft"><img src="images/123_03.jpg"/></p>
+											
+						  <div class="logoCenter">
+								  	<input type="text"  class="soso" value="&nbsp;&nbsp;DIV限时抢"/>
+								  	<div class="sousuo">搜索 <a href="#"></a></div>
+						  </div>
+											  
+						  <ul class="logoRight">				  	
+								  	<li><i class="iconfont">&#xe65a;</i><a href="#">订单</a></li>
+								  	<li><i class="iconfont">&#xe645;</i><a href="#">我的优惠券</a></li>
+								  	<li><i class="iconfont">&#xe603;</i><a href="#">购物车</a></li>				  	
+						 </ul>									  
+			</div>
+		<!--	<ul class="uu">
+			<li><a href="#">华为手机</a></li>
+			<li><a href="#">DIY主机降1000元</a></li>
+			<li><a href="#">畅玩7X立省130元</a></li>
+			<li><a href="#">超极本降1400元</a></li>
+			<li><a href="#">华为mate10</a></li>
+		</ul>-->
+		</div>
+		<!--第三部分-->
+		
+		<div id="dcai">
+		<div class="cai">
+			<ul class="xiala">
+				<li><i class="iconfont" "fen">&#xe64e;</i><a href="#">全部分类</a> </li>
+				
+			</ul>
+			<ul class="dan">
+					
+				<li><a href="#">首页</a></li>
+				<li class="tuan"><a href="#">团购</a></li>
+				<li><a href="#">电子竞技</a></li>
+				<li><a href="#">本地优选</a></li>
+				<li><a href="#">家电优选</a></li>
+				
+			</ul>
+		</div>
+		</div>
+	<!--	banner图-->
+	
+<div id="banner">
+	<div class="ban">
+		<div class="ban_l">
+			<div class="box" id="box">	   
+	      <ul id="ul">
+	           <li><a href="#"><img src="images/ban_1.jpg" alt=""/></a></li>
+	           <li><a href="#"><img src="images/ban_2.jpg" alt=""/></a></li>
+	           <li><a href="#"><img src="images/ban_3.jpg" alt=""/></a></li>	           
+	   		</ul>
+		     <ol id="bt">
+		        <li class="current">1</li>
+		        <li>2</li>
+		        <li>3</li>	        
+		     </ol>
+	   	 </div>
+			</div>
+			<div class="ban_r">
+				<img src="images/ban_right.jpg"/>
+				<img src="images/ban_right2.jpg"/>
+			</div>
+	</div>
+</div>		
+<!--正品检测--> 
+<div id="zheng">
+	<ul class="jian">
+		<li class="t1"><a href="#"><img src="images/quan_03.jpg"/>正品检测</a></li>
+		<li class="t2"><a href="#"><img src="images/quan_05.jpg">先行赔付</a></li>
+		<li class="t3"><a href="#"><img src="images/quan_07.jpg"/>发票保障</a></li>
+		<li class="t4"><a href="#"><img src="images/quan_11.jpg"/>24h发货</a></li>
+		<li class="t5"><a href="#"><img src="images/quanq_03.jpg"/>无忧退货</a></li>		
+	</ul>	
+</div>
+<!--精品团-->
+<div id="jing">
+	<div class="tuan">
+		<p>精品团</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
+<script src="dist/sspublic.js"></script>
+<script src="dist/sport2.js"></script>
+		
+<script>
+	var index = 0;
+	var timer = null;  
+	var oUl = $id("ul");
+	var olist = $id("bt").children;
+	timer = setInterval( autoPlay,2000 );
+	function autoPlay(){
+		index ++;
+		
+		if( index == olist.length ){
+			index = 0;
+		}
+		for( var i = 0 ; i < olist.length ; i++ ){
+			olist[i].className = "";
+		}
+		startMove(oUl,-index*900,"left");
+	}
+
+	for( let i = 0 ; i < olist.length ; i++ ){
+		olist[i].onmouseover = function(){
+			clearInterval(timer);
+			index = i-1;
+			autoPlay();
+		}
+		olist[i].onmouseout = function(){
+			timer = setInterval( autoPlay,2000 );
+		}
+	}
+</script>
+ 
