@@ -249,7 +249,7 @@
             width:100%;
             position: relative;
 //          overflow: auto;
-height:300px;
+            height:300px;
             #ul{
                 position: absolute;
                 width: 2700px;
@@ -308,8 +308,9 @@ height:300px;
                 float: left;                
             }
             a{
-               font-size: 18px;   
+               font-size: 16px;   
                color:#ea6161;
+              
              }
         }  
     }
@@ -317,7 +318,7 @@ height:300px;
 //精品团
 #jing{
     width: 100%;
-    height: 3px;
+    height: 65px;
  
       .tuan{
         padding-top:20px;
@@ -330,4 +331,306 @@ height:300px;
             font-size: 24px;
         }
     }
+
 }
+//精品团de轮播
+#te{
+    clear: both;
+    width: 100%;
+    height: 365px;
+   
+    .tu_box{
+//       clear: both;   
+        width:1200px;
+        height:360px;
+        margin:0 auto;
+         .li_a{
+            float: left;
+            width:298px;
+            height:363px;
+            border:#f5f5f5 1px dashed;
+//          overflow: hidden;
+            border:1px solid #ededed;
+            .tu-a{
+              box-sizing: border-box;
+              width:298px;
+              height:250px;
+//            margin:0 auto;
+//            border:1px solid #ededed;
+              padding:10px;
+              img{
+                 width: 203px;
+//               height:auto;
+                
+              }
+              a{
+                display: block;  
+                height: 26px;
+                color:#000;
+                font-size:16px;
+                line-height: 34px;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+              }
+              
+            }
+            .dsq_x{
+             
+                width:295px;
+                height:36px;
+                .dsq_a{
+                   font-size:16px;
+                   margin-left:5px;
+                   color: red;
+                  
+                }
+                .dsq_b{
+                    font-size: 16px;
+                    color:#b0b0b0;
+                    text-decoration: line-through;
+                }
+            }
+           
+          .setime{
+                margin-top:5px;
+                width:231px;
+                height:62px;
+                .huitong{
+                    margin-left: 5px;
+                    width: 145px;
+                    height:62px;
+                    float:left;
+                    a{
+                         font-size: 16px;
+                         color:#666666;      
+                    }
+                }
+                .qianggou{
+                    width: 90px;
+                    height:45px;
+                    float: right;
+                    background: #c31f1e;
+                    text-align: center;
+                   
+                    margin-right: -40px;
+                    a{
+                        line-height:45px;
+                        font-size: 18px;
+                        color:#fff;
+                    }
+                }
+            } 
+        }
+     }
+  }
+
+//今日团
+#jin{
+    width: 100%;
+    height: 54px;
+    
+    .ji{       
+        width: 1200px;      
+        margin: 0 auto;
+        background: pink;
+        p{
+          padding:27px 0 3px  ;
+            font-size: 24px;
+            line-height: 26px;
+          
+        }
+    }
+}
+// 今日团提示
+
+#tishi{
+  width: 100%;
+  height: 38px;
+     .ti{
+      width: 1200px;
+      height: 38px;
+      margin: 0 auto;
+      background: #fafafa;
+     
+      li{
+        float: left;
+        border: 1px solid #ededed;
+        line-height: 38px;
+        text-align: center;
+      }
+         .li_mo{
+              width: 52px;
+              height: 38px;
+              a{
+              
+                font-size: 12px;
+                color: red;
+              } 
+            }
+          .li_zui{
+              width: 78px;
+              height: 38px;
+              a{
+                font-size: 12px;
+                color: #666;
+              } 
+          }
+            .li_xiao{
+              width:66px;
+              height: 38px;
+                    a{
+                      font-size: 12px;
+                      color: #666;
+                    } 
+            }
+          .li_jia{
+            width: 66px;
+            height: 38px;
+                a{
+                  font-size: 12px;
+                  color:#666;
+                } 
+           }
+    }
+}
+
+// 今日团内容
+#dsan{
+  width: 100%;
+  height: auto;
+  background: pink;
+    .san{
+      width: 1228px;
+      height: auto;
+      overflow: hidden;
+      margin: 0 auto;
+        li{
+         margin: 10px 10px;
+          float: left;
+          width: 385px;
+          height: 450px;
+          border: #ededed 1px solid;
+          .pic_1{
+            img{
+              width: 387px;
+              height: 298px;
+            }
+          }
+            .dp{
+              width: 387px;
+              height: 40px;
+              .pp{
+                font-size: 14px;
+                color: #000;
+              }
+              .ppp{
+                font-size: 12px;
+                color: #ededed;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+              }
+            }
+            .dh{
+               width:265px;
+              height:40px;
+            .home{
+             float: left;
+              width:265px;
+              height:40px;
+              text-align: center;
+              line-height: 40px;
+                  .hh{
+                    font-size:20px;
+                    margin-left:5px;
+                    color: red;
+                    font-weight:900; 
+                    line-height: 40px;
+                  }
+                  .hhh{
+                    line-height: 40px;
+                      font-size: 20px;
+                      color:#b0b0b0;
+                      text-decoration: line-through;
+                  }
+                  .hhhh{
+                border: 1px solid red;
+                color: red;
+                font-size: 18px;
+              }
+             }
+             .ms{
+              width: 70px;
+              height:40px;
+              float: right;
+              background: #c31f1e;
+              text-align: center;
+              margin: 0 -100px;
+                  a{
+                      line-height:45px;
+                      font-size: 18px;
+                      color:#fff;
+                  }
+              }
+            }   
+          }
+      .shengyu{
+        width: 387px;
+        height: 50px;
+        border-top: 1px dotted #ededed;
+   
+       }
+    }
+}
+//更多团购商品
+#mostp{
+  width: 100%;
+  height: 54px;
+  margin: 0 auto;
+    .geng{       
+      width: 1200px; 
+      height: 50px;     
+      margin: 0 auto;
+      background:#FAFAFA;
+     text-align: center;
+        span a{      
+              font-size: 14px;
+              line-height: 50px;
+              
+          }
+    }
+    
+}
+// end
+#endd{
+  width: 100%;
+  height: 240px;
+  background: pink;
+
+    .end{
+      width: 1200px;
+      height: 240px;
+      margin: 0 auto;
+      border-top: 1px solid #2d2d2d;
+        .u1{
+          float: left;
+          margin: 0 50px;
+         
+          span{
+            font-size: 16px;
+            color: #000;
+          }
+        .cl1{
+            font-size: 14px;
+            font-weight: 900;
+            color: #000;
+        }
+        .cl2 a{
+          font-size: 14px;
+          color: #666;
+        }
+        }
+    }
+}
+

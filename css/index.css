@@ -273,12 +273,12 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 15px;
         float: left; }
       #zheng .jian li a {
-        font-size: 18px;
+        font-size: 16px;
         color: #ea6161; }
 
 #jing {
   width: 100%;
-  height: 3px; }
+  height: 65px; }
   #jing .tuan {
     padding-top: 20px;
     width: 1200px;
@@ -288,3 +288,225 @@ h1, h2, h3, h4, h5, h6 {
     #jing .tuan p {
       color: #000;
       font-size: 24px; }
+
+#te {
+  clear: both;
+  width: 100%;
+  height: 365px; }
+  #te .tu_box {
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto; }
+    #te .tu_box .li_a {
+      float: left;
+      width: 298px;
+      height: 363px;
+      border: #f5f5f5 1px dashed;
+      border: 1px solid #ededed; }
+      #te .tu_box .li_a .tu-a {
+        box-sizing: border-box;
+        width: 298px;
+        height: 250px;
+        padding: 10px; }
+        #te .tu_box .li_a .tu-a img {
+          width: 203px; }
+        #te .tu_box .li_a .tu-a a {
+          display: block;
+          height: 26px;
+          color: #000;
+          font-size: 16px;
+          line-height: 34px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+      #te .tu_box .li_a .dsq_x {
+        width: 295px;
+        height: 36px; }
+        #te .tu_box .li_a .dsq_x .dsq_a {
+          font-size: 16px;
+          margin-left: 5px;
+          color: red; }
+        #te .tu_box .li_a .dsq_x .dsq_b {
+          font-size: 16px;
+          color: #b0b0b0;
+          text-decoration: line-through; }
+      #te .tu_box .li_a .setime {
+        margin-top: 5px;
+        width: 231px;
+        height: 62px; }
+        #te .tu_box .li_a .setime .huitong {
+          margin-left: 5px;
+          width: 145px;
+          height: 62px;
+          float: left; }
+          #te .tu_box .li_a .setime .huitong a {
+            font-size: 16px;
+            color: #666666; }
+        #te .tu_box .li_a .setime .qianggou {
+          width: 90px;
+          height: 45px;
+          float: right;
+          background: #c31f1e;
+          text-align: center;
+          margin-right: -40px; }
+          #te .tu_box .li_a .setime .qianggou a {
+            line-height: 45px;
+            font-size: 18px;
+            color: #fff; }
+
+#jin {
+  width: 100%;
+  height: 54px; }
+  #jin .ji {
+    width: 1200px;
+    margin: 0 auto;
+    background: pink; }
+    #jin .ji p {
+      padding: 27px 0 3px;
+      font-size: 24px;
+      line-height: 26px; }
+
+#tishi {
+  width: 100%;
+  height: 38px; }
+  #tishi .ti {
+    width: 1200px;
+    height: 38px;
+    margin: 0 auto;
+    background: #fafafa; }
+    #tishi .ti li {
+      float: left;
+      border: 1px solid #ededed;
+      line-height: 38px;
+      text-align: center; }
+    #tishi .ti .li_mo {
+      width: 52px;
+      height: 38px; }
+      #tishi .ti .li_mo a {
+        font-size: 12px;
+        color: red; }
+    #tishi .ti .li_zui {
+      width: 78px;
+      height: 38px; }
+      #tishi .ti .li_zui a {
+        font-size: 12px;
+        color: #666; }
+    #tishi .ti .li_xiao {
+      width: 66px;
+      height: 38px; }
+      #tishi .ti .li_xiao a {
+        font-size: 12px;
+        color: #666; }
+    #tishi .ti .li_jia {
+      width: 66px;
+      height: 38px; }
+      #tishi .ti .li_jia a {
+        font-size: 12px;
+        color: #666; }
+
+#dsan {
+  width: 100%;
+  height: auto;
+  background: pink; }
+  #dsan .san {
+    width: 1228px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto; }
+    #dsan .san li {
+      margin: 10px 10px;
+      float: left;
+      width: 385px;
+      height: 450px;
+      border: #ededed 1px solid; }
+      #dsan .san li .pic_1 img {
+        width: 387px;
+        height: 298px; }
+      #dsan .san li .dp {
+        width: 387px;
+        height: 40px; }
+        #dsan .san li .dp .pp {
+          font-size: 14px;
+          color: #000; }
+        #dsan .san li .dp .ppp {
+          font-size: 12px;
+          color: #ededed;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+      #dsan .san li .dh {
+        width: 265px;
+        height: 40px; }
+        #dsan .san li .dh .home {
+          float: left;
+          width: 265px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px; }
+          #dsan .san li .dh .home .hh {
+            font-size: 20px;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900;
+            line-height: 40px; }
+          #dsan .san li .dh .home .hhh {
+            line-height: 40px;
+            font-size: 20px;
+            color: #b0b0b0;
+            text-decoration: line-through; }
+          #dsan .san li .dh .home .hhhh {
+            border: 1px solid red;
+            color: red;
+            font-size: 18px; }
+        #dsan .san li .dh .ms {
+          width: 70px;
+          height: 40px;
+          float: right;
+          background: #c31f1e;
+          text-align: center;
+          margin: 0 -100px; }
+          #dsan .san li .dh .ms a {
+            line-height: 45px;
+            font-size: 18px;
+            color: #fff; }
+    #dsan .san .shengyu {
+      width: 387px;
+      height: 50px;
+      border-top: 1px dotted #ededed; }
+
+#mostp {
+  width: 100%;
+  height: 54px;
+  margin: 0 auto; }
+  #mostp .geng {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    background: #FAFAFA;
+    text-align: center; }
+    #mostp .geng span a {
+      font-size: 14px;
+      line-height: 50px; }
+
+#endd {
+  width: 100%;
+  height: 240px;
+  background: pink; }
+  #endd .end {
+    width: 1200px;
+    height: 240px;
+    margin: 0 auto;
+    border-top: 1px solid #2d2d2d; }
+    #endd .end .u1 {
+      float: left;
+      margin: 0 50px; }
+      #endd .end .u1 span {
+        font-size: 16px;
+        color: #000; }
+      #endd .end .u1 .cl1 {
+        font-size: 14px;
+        font-weight: 900;
+        color: #000; }
+      #endd .end .u1 .cl2 a {
+        font-size: 14px;
+        color: #666; }
