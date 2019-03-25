@@ -105,8 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 .top_2 .shou i {
   vertical-align: middle;
   font-size: 22px;
-  color: red;
-  font-weight: 500; }
+  color: #cc0000; }
 
 .top_2 .shou a {
   vertical-align: middle;
@@ -177,11 +176,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #dcai {
   width: 100%;
-  height: 37px; }
+  height: 37px;
+  margin-bottom: 37px; }
   #dcai .cai {
     width: 1200px;
     height: 37px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border-bottom: 2px solid red; }
     #dcai .cai .xiala {
       float: left;
       width: 160px;
@@ -232,158 +233,34 @@ h1, h2, h3, h4, h5, h6 {
       #dcai .cai .dan .tuan a {
         color: red; }
 
-#banner {
+#navv {
   width: 100%;
-  height: 300px; }
-  #banner .ban {
-    border-top: 2px solid red;
+  height: 56px; }
+  #navv .nav {
     width: 1200px;
-    height: 300px;
-    position: relative;
-    margin: 0 auto; }
-    #banner .ban .ban_l {
-      float: left;
-      width: 900px;
-      height: 300px;
-      overflow: hidden;
-      position: relative; }
-      #banner .ban .ban_l img {
-        display: block; }
-      #banner .ban .ban_l .box {
-        position: relative;
-        height: 300px; }
-        #banner .ban .ban_l .box #ul {
-          position: absolute;
-          width: 2700px; }
-          #banner .ban .ban_l .box #ul li {
-            float: left; }
-        #banner .ban .ban_l .box ol {
-          position: absolute;
-          left: 50%;
-          bottom: 10px; }
-          #banner .ban .ban_l .box ol li {
-            float: left;
-            width: 18px;
-            height: 18px;
-            background-color: #fff;
-            margin-right: 10px;
-            text-align: center;
-            line-height: 18px;
-            cursor: pointer; }
-          #banner .ban .ban_l .box ol .current {
-            background-color: orange; }
-    #banner .ban .ban_r {
-      float: left;
-      width: 300px; }
-
-#zheng {
-  width: 100%;
-  height: 80px; }
-  #zheng .jian {
-    width: 1200px;
-    height: 80px;
+    height: 43px;
     margin: 0 auto;
-    background: #fafafa; }
-    #zheng .jian li {
-      width: 132px;
-      height: 80px;
-      line-height: 80px;
+    background: #f2f2f2;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed; }
+    #navv .nav li {
       float: left;
-      margin: 0 50px; }
-      #zheng .jian li img {
-        padding-top: 15px;
-        float: left; }
-      #zheng .jian li a {
-        font-size: 16px;
-        color: #ea6161; }
-
-#jing {
-  width: 100%;
-  height: 65px; }
-  #jing .tuan {
-    padding-top: 20px;
-    width: 1200px;
-    height: 44px;
-    margin: 0 auto; }
-    #jing .tuan p {
-      color: #000;
-      font-size: 24px; }
-
-#te {
-  clear: both;
-  width: 100%;
-  height: 365px; }
-  #te .tu_box {
-    width: 1200px;
-    height: 360px;
-    margin: 0 auto; }
-    #te .tu_box .li_a {
-      float: left;
-      width: 298px;
-      height: 363px;
-      border: #f5f5f5 1px dashed;
-      border: 1px solid #ededed; }
-      #te .tu_box .li_a .tu-a {
-        box-sizing: border-box;
-        width: 298px;
-        height: 250px;
-        padding: 10px; }
-        #te .tu_box .li_a .tu-a img {
-          width: 203px; }
-        #te .tu_box .li_a .tu-a a {
-          display: block;
-          height: 26px;
-          color: #000;
-          font-size: 16px;
-          line-height: 34px;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap; }
-      #te .tu_box .li_a .dsq_x {
-        width: 295px;
-        height: 36px; }
-        #te .tu_box .li_a .dsq_x .dsq_a {
-          font-size: 16px;
-          margin-left: 5px;
-          color: red; }
-        #te .tu_box .li_a .dsq_x .dsq_b {
-          font-size: 16px;
-          color: #b0b0b0;
-          text-decoration: line-through; }
-      #te .tu_box .li_a .setime {
-        margin-top: 5px;
-        width: 231px;
-        height: 62px; }
-        #te .tu_box .li_a .setime .huitong {
-          margin-left: 5px;
-          width: 145px;
-          height: 62px;
-          float: left; }
-          #te .tu_box .li_a .setime .huitong a {
-            font-size: 16px;
-            color: #666666; }
-        #te .tu_box .li_a .setime .qianggou {
-          width: 90px;
-          height: 45px;
-          float: right;
-          background: #c31f1e;
-          text-align: center;
-          margin-right: -40px; }
-          #te .tu_box .li_a .setime .qianggou a {
-            line-height: 45px;
-            font-size: 18px;
-            color: #fff; }
-
-#jin {
-  width: 100%;
-  height: 54px; }
-  #jin .ji {
-    width: 1200px;
-    margin: 0 auto; }
-    #jin .ji p {
-      padding: 27px 0 3px;
-      font-size: 24px;
-      line-height: 26px; }
+      width: 85px;
+      height: 40px;
+      background: #f2f2f2;
+      text-align: center; }
+      #navv .nav li a {
+        line-height: 40px;
+        font-size: 12px;
+        color: #605f5e; }
+      #navv .nav li span {
+        font-size: 12px;
+        color: #605f5e; }
+    #navv .nav li:hover {
+      border-top: 2px solid red;
+      background: #fafafa; }
+      #navv .nav li:hover a {
+        color: red; }
 
 #tishi {
   width: 100%;
@@ -411,13 +288,15 @@ h1, h2, h3, h4, h5, h6 {
         color: #666; }
     #tishi .ti .li_xiao {
       width: 66px;
-      height: 38px; }
+      height: 38px;
+      background: url(../images/images/sanjiao1_03.jpg) no-repeat right center; }
       #tishi .ti .li_xiao a {
         font-size: 12px;
         color: #666; }
     #tishi .ti .li_jia {
       width: 66px;
-      height: 38px; }
+      height: 38px;
+      background: url(../images/images/san2_03.jpg) no-repeat right center; }
       #tishi .ti .li_jia a {
         font-size: 12px;
         color: #666; }
@@ -434,12 +313,13 @@ h1, h2, h3, h4, h5, h6 {
       margin: 10px 10px;
       float: left;
       width: 385px;
-      height: 450px; }
+      height: 450px;
+      border: 1px solid #605f5e; }
       #dsan .san li .pic_1 img {
-        width: 387px;
+        width: 385px;
         height: 298px; }
       #dsan .san li .dp {
-        width: 385px;
+        width: 387px;
         height: 40px; }
         #dsan .san li .dp .pp {
           font-size: 14px;
@@ -490,24 +370,10 @@ h1, h2, h3, h4, h5, h6 {
       height: 50px;
       border-top: 1px dotted #ededed; }
 
-#mostp {
-  width: 100%;
-  height: 54px;
-  margin: 0 auto; }
-  #mostp .geng {
-    width: 1200px;
-    height: 50px;
-    margin: 0 auto;
-    background: #FAFAFA;
-    text-align: center; }
-    #mostp .geng span a {
-      font-size: 14px;
-      line-height: 50px; }
-
 #endd {
   width: 100%;
   height: 240px;
-  margin-top: 5px;
+  margin-top: 55px;
   border-top: 1px solid #ccc; }
   #endd .end {
     width: 1200px;

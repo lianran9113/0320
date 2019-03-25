@@ -1,0 +1,230 @@
+@import "common";
+body{    background: #fafafa; 
+#der{
+    width: 100%;
+    height: 170px;
+    background: #fafafa; 
+    .header{
+        width: 990px;
+        height: 170px;   
+        margin: 0 auto;
+        background: #fafafa;
+        .logo{       
+            width: 350px;
+            height: 64px;
+            float: left;
+            margin:64px 0 44px 0;
+  
+            li{               
+                float: left;                           
+                p{
+                    font-size: 14px;
+                    color: #666;
+                }
+            }
+            .l1{
+                border-left: 1px solid #ccc;
+                height: 64px;
+                line-height: 64px;
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+        }
+        .logo_r{
+            width: 176px;
+            height: 64px;
+            float: right;
+            margin:64px 0 44px 0;
+            li{
+                p{
+                    height: 64px;
+                    line-height: 64px;
+                    font-size: 14px;
+                    color: #666;
+             
+                }
+                a{
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+// 中心
+#banner{
+    width: 100%;
+    height: 352px;
+    background: #fafafa;
+    .gong{
+        clear: both;
+        margin:0 auto;   
+        width:990px;
+        height: 349px;
+        background: #fafafa;
+        border: #ccc 1px solid;
+    .ban{ 
+        float: left;
+        width: 520px;
+        height: 349px;
+        img{
+           width: 100%;
+        }     
+    }
+    .work{
+        width: 468px;
+        height: 350px;
+        float: right;
+        background: #fff;
+        .top{
+            margin: 5px 74px 5px 74px;
+            width: 312px;
+            height: 43px;
+            h2{
+                 width: 146px;
+                height: 36px;
+                float: left;
+                font-size: 18px;
+                border-bottom: 2px solid  red;
+                margin-left: 10px;
+                line-height: 36px;
+                text-align: center;
+
+            }
+            // h2:hover{
+            //     border-bottom: 2px solid red;
+            // }
+            h3{
+                width: 146px;
+                height: 36px;
+                float: right;
+                font-size: 18px;
+                border-bottom: 2px solid #ccc;
+                margin-right: 10px;
+                line-height: 36px;
+                text-align: center;
+
+
+            }
+            // h3:hover{
+            //     border-bottom: 2px solid red;
+            // }
+        }
+        .inp{
+            margin: 5px 74px 15px 74px;
+             width: 312px;
+             height: 110px;
+             input{
+                    width: 288px;
+                    height: 38px;
+                    margin: 5px;
+                }
+            }
+            .dong{
+                margin: 19px 74px 15px 74px;
+                width: 312px;
+                height: 15px;
+                .tai{
+                    font-size: 12px;
+                    float: left;
+                    color: #000;
+                    i{
+                        color: red;
+                        font-weight: 580;
+                    }
+
+                }
+                .wangji{
+                    float: right;
+                    font-size: 12px;
+
+                }
+            }
+            .denglu{
+                width: 290px;
+                height: 40px;
+                background: red;
+                font-size: 16px;
+                font-weight: 900;
+                color: #fafafa;                
+                margin: 5px 74px 5px 74px;
+                border: none;
+            }
+            .he{
+                width:290px;
+                height:30px;
+                margin: 5px 74px 0 74px;
+                .zuo1{
+                    float:left;
+                    width:90px;
+                    height:15px;
+                    border-bottom:1px solid #f0f0f0;
+                }
+                .zuo2{
+                    float:left;
+                    width:110px;
+                    height:30px;
+                    text-align: center;
+                    line-height:30px;
+                    font-size:12px;
+                    color: #666;
+                }
+                .zuo3{
+                    float:left;
+                    width:90px;
+                    height:15px;
+                    border-bottom:1px solid #f0f0f0;
+                }
+            }
+            .wx{
+                width:290px;
+                 height:50px;
+                 margin: 5px 74px 5px 74px;
+                 img{
+                    margin-left:10px;
+               }
+            }
+        }
+       
+    }
+}
+// 尾部
+#ending{
+    width: 100%;
+    height: auto;
+    background: #fafafa;
+    border-top: #ccc 1px solid;
+    margin-top: 180px;
+    .end{
+        width: 990px;
+        height:auto;
+        margin: 0 auto;
+        clear: both;
+        // background: #fafafa;
+        .ul{
+            width: 250px;
+            height: 55px;
+            float: left;           
+            li{
+                width: 70px;
+                height: 41px;
+                float: left;
+                a{
+                    line-height: 41px;
+                    font-size: 12px;
+                    color: #666;
+                }
+            }
+            
+        }
+        .cop{
+            float: right;
+            span{
+                    line-height: 41px;
+                    font-size: 12px;
+                    color: #666;
+            }
+        }
+    }
+}
+}   
