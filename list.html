@@ -64,10 +64,10 @@
 		<div id="dcai">	
                 <div class="cai">
                     <ul class="xiala">
-                        <li class="xiala1"><i class="iconfont">&#xe64e;</i><a href="#">全部分类</a>
-                            
+                        <li class="xiala1">
+                            <i class="iconfont">&#xe64e;</i><a href="#">全部分类</a>                            
                         </li>
-                        <ul class="fen">
+                            <ul class="fen">
                                 <li><i class="iconfont">&#xe674;</i><a href="#">手机</a></li>
                                 <li><i class="iconfont">&#xe7fc;</i><a href="#">电脑</a></li>
                                 <li><i class="iconfont">&#xe641;</i><a href="#">DIY</a></li>
@@ -77,14 +77,13 @@
                                 <li><i class="iconfont">&#xe61a;</i><a href="#">其他</a></li>
                             </ul>
                     </ul>
-                    <ul class="dan">
-                            
+                    
+                    <ul class="dan">                            
                         <li><a href="#">首页</a></li>
                         <li class="tuan"><a href="#">团购</a></li>
                         <li><a href="#">电子竞技</a></li>
                         <li><a href="#">本地优选</a></li>
-                        <li><a href="#">家电优选</a></li>
-                        
+                        <li><a href="#">家电优选</a></li>                        
                     </ul>
                 </div>
                 </div>
@@ -427,7 +426,7 @@
                     </div>	
                 </div> 
      <div class="shengyu">
-                <span>我是一个定时器</span>	
+                <span><i class="iconfont"></i>   我是一个定时器</span>	
      </div>		
         </li>
         
@@ -516,13 +515,35 @@
                 <li><a href="#">帮助中心</a></li>
                 <li class="mei"><a href="#">联系我们</a></li>
             </ul></br>
-         <p class="cun">
-            <span>&copy;2019 中关村在线版权所有.&nbsp;京ICP证159600号&nbsp;京ICP备4061128号&nbsp;网络文化经营许可证京网文[2016]1631-199</span>
+             <p class="cun">
+                 <span>&copy;2019 中关村在线版权所有.&nbsp;京ICP证159600号&nbsp;京ICP备4061128号&nbsp;网络文化经营许可证京网文[2016]1631-199</span>
              </p>
         </div>
     </div>
 
-
-
 </body>
 </html>
+<script src="dist/jquery-1.11.3.js"></script>
+<script src="dist/sspublic.js"></script>
+<script src="dist/sport2.js"></script>
+<script>
+
+    var nowdate = new Date();
+	
+    var fuldate = new Date(nowdate.getFullYear(),nowdate.getMonth(),nowdate.getDate()+365);
+    
+    setInterval(function(){
+    var nowDate = new Date();
+    var cdate = fuldate - nowDate;
+    var day = parseInt(cdate/86400000);
+    var hours = parseInt(cdate%86400000/3600000);
+    var minutes = parseInt(cdate%86400000%3600000/60000);
+    var seconds = parseInt(cdate%86400000%3600000%60000/1000);
+      $(".shengyu span").html("剩余：" + day + "天"+ hours + "小时" + minutes + "分钟" + seconds + "秒");
+})
+
+
+
+
+
+</script>

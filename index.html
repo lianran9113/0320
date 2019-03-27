@@ -68,8 +68,8 @@
 		<div id="dcai">	
 		<div class="cai">
 			<ul class="xiala">
-				<li class="xiala1"><i class="iconfont">&#xe64e;</i><a href="#">全部分类</a>
-					
+				<li class="xiala1">
+					<i class="iconfont">&#xe64e;</i><a href="#">全部分类</a>					
 				</li>
 				<ul class="fen">
 						<li><i class="iconfont">&#xe674;</i><a href="#">手机</a></li>
@@ -847,7 +847,9 @@
 																							</div>	
 																						</div> 
 																			 <div class="shengyu">
-																						<span>我是一个定时器</span>	
+																						<span>
+																							定时器
+																						</span>	
 																			 </div>		
 																				</li>		
 
@@ -962,7 +964,7 @@
 		}
 	}
 	 
-	
+	// 定时器
 	var nowdate = new Date();
 	
 	var fuldate = new Date(nowdate.getFullYear(),nowdate.getMonth(),nowdate.getDate()+365);
@@ -975,7 +977,7 @@
 		var minutes = parseInt(cdate%86400000%3600000/60000);
 		var seconds = parseInt(cdate%86400000%3600000%60000/1000);
 	//	$('.time .day').html(day).siblings('.hour').html(hours).siblings('.minute').html(minutes).siblings('.second').html(seconds);
-		  $(".shengyu span").html(day +"天"+ hours +"小时"+ minutes +"分钟"+ seconds + "秒");
+		  $(".shengyu span").html("剩余：" + day + "天"+ hours + "小时" + minutes + "分钟" + seconds + "秒");
 	})
 
 

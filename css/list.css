@@ -368,7 +368,9 @@ h1, h2, h3, h4, h5, h6 {
     #dsan .san .shengyu {
       width: 387px;
       height: 50px;
-      border-top: 1px dotted #ededed; }
+      border-top: 1px dotted #686464;
+      text-align: center;
+      line-height: 50px; }
 
 #endd {
   width: 100%;
