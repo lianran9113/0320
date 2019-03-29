@@ -119,11 +119,11 @@
 <!--正品检测--> 
 <div id="zheng">
 	<ul class="jian">
-		<li class="t1"><a href="#"><img src="images/quan_03.jpg"/>正品检测</a></li>
-		<li class="t2"><a href="#"><img src="images/quan_05.jpg">先行赔付</a></li>
-		<li class="t3"><a href="#"><img src="images/quan_07.jpg"/>发票保障</a></li>
-		<li class="t4"><a href="#"><img src="images/quan_11.jpg"/>24h发货</a></li>
-		<li class="t5"><a href="#"><img src="images/quanq_03.jpg"/>无忧退货</a></li>		
+		<li class="t1"><a href="#"><img src="images/quan_03.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;正品检测</a></li>
+		<li class="t2"><a href="#"><img src="images/quan_05.jpg">&nbsp;&nbsp;&nbsp;&nbsp;先行赔付</a></li>
+		<li class="t3"><a href="#"><img src="images/quan_07.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;发票保障</a></li>
+		<li class="t4"><a href="#"><img src="images/quan_11.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;24h发货</a></li>
+		<li class="t5"><a href="#"><img src="images/quanq_03.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;无忧退货</a></li>		
 	</ul>	
 </div>
 <!--精品团-->
@@ -932,9 +932,10 @@
 
 	</body>
 </html>
+<script src="dist/jquery-1.11.3.js"></script>	
 <script src="dist/sspublic.js"></script>
 <script src="dist/sport2.js"></script>
-	<script src="dist/jquery-1.11.3.js"></script>	
+
 <script>
 	var index = 0;
 	var timer = null;  
@@ -950,6 +951,7 @@
 		for( var i = 0 ; i < olist.length ; i++ ){
 			olist[i].className = "";
 		}
+		olist[index].className = "current";
 		startMove(oUl,-index*900,"left");
 	}
 

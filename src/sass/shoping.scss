@@ -1,0 +1,209 @@
+@import 'common';
+#header {
+    width: 100%;
+    height: 37px;
+    // background: pink;
+    border-bottom: 1px solid #e6e6e6;
+  }
+    .top {
+      width: 1200px;
+      height: 37px;
+      margin: 0 auto;
+      position: relative;
+      background: #f5f5f5;
+   
+  }
+  .top {
+    .top_1 {
+      width: 320px;
+      height: 37px;
+      float: left;
+      line-height: 37px;
+      text-align: center;
+      span {
+        margin-right: 23px;
+        color: #000000;
+        font-size: 12px;
+      }
+    }
+    .top_2 {
+      width: 730px;
+      height: 37px;
+      font-size: 12px;
+      float: right;
+      line-height: 37px;
+      text-align: center;
+    }
+  }
+  .top_2 {
+    li {
+      position: relative;
+      float: left;
+      margin: 0 10px;
+      a {
+        color: #000000;
+        &:hover {
+          border-bottom: 1px solid red;
+          color: red;
+        }
+      }
+      .didi {  
+        text-align: center;
+        margin-left: 100px;
+      }
+    }
+    .li_last {
+      p {
+        width: 150px;
+        right: -20px;
+        position: absolute;
+        font-size: 12px;
+        display: none;
+        background: #f5f5f5;
+      }
+      &:hover {
+        p {
+          display: block;
+          border: 1px solid #e6e6e6;
+          border: none;
+        }
+      }
+    }
+    .border {
+      a {
+        padding-right: 15px;
+        border-right: 1px solid #cc0000;
+      }
+    }
+    .shou {
+      i {
+        vertical-align: middle;
+        font-size: 22px;
+        color: red;
+        font-weight: 500;
+      }
+      a {
+        vertical-align: middle;
+        font-size: 12px;
+        &:hover {
+          background: white;
+          border-bottom: 0;
+        }
+      }
+      img {
+        width: 100px;
+        left: 0;
+        position: absolute;
+        font-size: 12px;
+        display: none;
+        border: 1px solid #cc0;
+        background: white;
+      }
+      &:hover {
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+
+  /*第二部分*/
+#logo {
+    width: 100%;
+    height: 92px;
+    // background: pink;
+    margin-bottom: 20px;
+   
+    .logoh {
+        
+      width: 1200px;
+      height: 101px;  
+      margin: 0 auto;
+      padding-top: 30px;
+      .logoLeft{
+          width: 300px;
+          height: 50px;
+          float: left;
+    }
+    
+    .logoRight{
+        float: right;
+        width: 520px;
+        height: 38px;
+        display: block;
+        font-size: 12px;
+        color: #333;
+        .li_1{     
+        width: 90px;
+        height: 36px;                   
+        float: left;
+        background: #e02d2d url(../images/images/bei_1_03.jpg) no-repeat right center;
+        
+        text-align: center;
+        line-height: 36px;    
+        }
+        .li_2,.li_3,.li_4{     
+        text-align: center;
+        line-height: 36px;
+        height: 36px;                   
+        float: left;
+        width: 90px;
+        background:#e6e6e6 url(../images/images/beijing_2_03.jpg) no-repeat right center;
+        } 
+        .li_5{ 
+            text-align: center;    
+            padding: 0;
+            background: #e6e6e6;
+            height: 36px;     
+            float: left;
+            width: 90px;
+            line-height: 36px;
+        }                               
+    }
+  }
+}
+.zhuang{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;   
+    p{
+        width: 150px;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 1100px;
+        float: right;
+    }
+}
+
+
+.jie{
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto;
+    clear: both;
+    p{
+        width: 170px;
+        height: 46px;
+        font-size: 12px;
+        color: #999999;
+        line-height: 46px;
+       float: right;
+        span{
+            line-height: 46px;
+            color: #ff0000;
+            font-size: 12px;
+            
+        }
+    }
+    #suan{
+        width: 73px;      
+        height: 28px;
+        margin-top: 10px;
+        border: 1px solid #fe9400;
+        font-size: 12px;
+        background: #f9a800;
+        color: #fff;
+        float: right;
+    }
+   
+}
