@@ -325,7 +325,9 @@ h1, h2, h3, h4, h5, h6 {
             #zheng .jiu .zhe_l .news .pri .li_1 img {
               margin: 10px 0 0 15px;
               float: left; }
-            #zheng .jiu .zhe_l .news .pri .li_1 span {
+            #zheng .jiu .zhe_l .news .pri .li_1 #time {
+              width: 200px;
+              height: 45px;
               float: right;
               line-height: 45px; }
           #zheng .jiu .zhe_l .news .pri .li_2 {
