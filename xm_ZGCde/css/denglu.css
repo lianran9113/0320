@@ -1,0 +1,255 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+u, a {
+  text-decoration: none; }
+
+ul, li, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+input {
+  outline: none; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  background: #fafafa; }
+  body #der {
+    width: 100%;
+    height: 170px;
+    background: #fafafa; }
+    body #der .header {
+      width: 990px;
+      height: 170px;
+      margin: 0 auto;
+      background: #fafafa; }
+      body #der .header .logo {
+        width: 350px;
+        height: 64px;
+        float: left;
+        margin: 64px 0 44px 0; }
+        body #der .header .logo li {
+          float: left; }
+          body #der .header .logo li p {
+            font-size: 14px;
+            color: #666; }
+        body #der .header .logo .l1 {
+          border-left: 1px solid #ccc;
+          height: 64px;
+          line-height: 64px;
+          margin-left: 10px;
+          padding-left: 10px; }
+      body #der .header .logo_r {
+        width: 176px;
+        height: 64px;
+        float: right;
+        margin: 64px 0 44px 0; }
+        body #der .header .logo_r li p {
+          height: 64px;
+          line-height: 64px;
+          font-size: 14px;
+          color: #666; }
+        body #der .header .logo_r li a {
+          font-size: 14px;
+          color: red; }
+        body #der .header .logo_r li a:hover {
+          background: red;
+          color: #ffffff; }
+  body #banner {
+    width: 100%;
+    height: 352px;
+    background: #fafafa; }
+    body #banner .gong {
+      clear: both;
+      margin: 0 auto;
+      width: 990px;
+      height: 349px;
+      background: #fafafa;
+      border: #ccc 1px solid; }
+      body #banner .gong .ban {
+        float: left;
+        width: 520px;
+        height: 349px; }
+        body #banner .gong .ban img {
+          width: 100%; }
+      body #banner .gong .work {
+        width: 468px;
+        height: 350px;
+        float: right;
+        background: #fff;
+        position: relative; }
+        body #banner .gong .work .top {
+          margin: 5px 74px 5px 74px;
+          width: 312px;
+          height: 43px; }
+          body #banner .gong .work .top h2 {
+            width: 162px;
+            height: 36px;
+            float: left;
+            font-size: 18px;
+            border-bottom: 2px solid red;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+            text-decoration: none; }
+          body #banner .gong .work .top .shang {
+            width: 140px;
+            height: 36px;
+            float: right;
+            font-size: 18px;
+            border-bottom: 2px solid #ccc;
+            margin-right: 10px;
+            line-height: 36px;
+            text-align: center; }
+        body #banner .gong .work .content {
+          width: 468px;
+          height: 299px;
+          position: absolute; }
+          body #banner .gong .work .content .inp {
+            margin: 5px 74px 10px 74px;
+            width: 312px;
+            height: 110px; }
+            body #banner .gong .work .content .inp input {
+              width: 288px;
+              height: 38px;
+              margin: 10px 5px 10px 5px; }
+          body #banner .gong .work .content .dong {
+            margin: 19px 74px 15px 74px;
+            width: 312px;
+            height: 15px; }
+            body #banner .gong .work .content .dong .tai {
+              font-size: 12px;
+              float: left;
+              color: #000; }
+              body #banner .gong .work .content .dong .tai .iconfont {
+                font-size: 18px;
+                color: red;
+                font-weight: 580; }
+            body #banner .gong .work .content .dong .wangji {
+              float: right;
+              font-size: 12px; }
+          body #banner .gong .work .content .denglu {
+            width: 290px;
+            height: 40px;
+            background: red;
+            font-size: 16px;
+            font-weight: 900;
+            color: #fafafa;
+            margin: 5px 74px 5px 74px;
+            border: none; }
+          body #banner .gong .work .content .he {
+            width: 290px;
+            height: 30px;
+            margin: 5px 74px 0 74px; }
+            body #banner .gong .work .content .he .zuo1 {
+              float: left;
+              width: 90px;
+              height: 15px;
+              border-bottom: 1px solid #f0f0f0; }
+            body #banner .gong .work .content .he .zuo2 {
+              float: left;
+              width: 110px;
+              height: 30px;
+              text-align: center;
+              line-height: 30px;
+              font-size: 12px;
+              color: #666; }
+            body #banner .gong .work .content .he .zuo3 {
+              float: left;
+              width: 90px;
+              height: 15px;
+              border-bottom: 1px solid #f0f0f0; }
+          body #banner .gong .work .content .wx {
+            width: 290px;
+            height: 50px;
+            margin: 5px 74px 5px 74px; }
+            body #banner .gong .work .content .wx img {
+              margin-left: 10px; }
+        body #banner .gong .work .content1 {
+          width: 468px;
+          height: 299px;
+          position: absolute;
+          display: none; }
+          body #banner .gong .work .content1 .inp {
+            margin: 5px 74px 15px 74px;
+            width: 312px;
+            height: 110px; }
+            body #banner .gong .work .content1 .inp .inp_3 {
+              width: 288px;
+              height: 38px;
+              margin: 15px 5px 5px 5px; }
+            body #banner .gong .work .content1 .inp .inp_4 {
+              width: 288px;
+              height: 38px;
+              margin: 15px 5px 10px 5px; }
+          body #banner .gong .work .content1 .wangji {
+            float: right;
+            font-size: 12px;
+            margin-right: 100px; }
+          body #banner .gong .work .content1 .denglu {
+            width: 290px;
+            height: 40px;
+            background: red;
+            font-size: 16px;
+            font-weight: 900;
+            color: #fafafa;
+            margin: 5px 74px 5px 74px;
+            border: none; }
+    body #banner #ending {
+      width: 100%;
+      height: auto;
+      background: #fafafa;
+      border-top: #ccc 1px solid;
+      margin-top: 180px; }
+      body #banner #ending .end {
+        width: 990px;
+        height: auto;
+        margin: 0 auto;
+        clear: both; }
+        body #banner #ending .end .ul {
+          width: 250px;
+          height: 55px;
+          float: left; }
+          body #banner #ending .end .ul li {
+            width: 70px;
+            height: 41px;
+            float: left; }
+            body #banner #ending .end .ul li a {
+              line-height: 41px;
+              font-size: 12px;
+              color: #666; }
+        body #banner #ending .end .cop {
+          float: right; }
+          body #banner #ending .end .cop span {
+            line-height: 41px;
+            font-size: 12px;
+            color: #666; }

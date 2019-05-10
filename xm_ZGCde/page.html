@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="shopinfo">
+  <!-- <li class="san_li">            
+             <div class="pic_1">
+                 <img src="images/list_1.jpg" alt="">		
+             </div>    
+             <div class="dp">
+                 <p class="pp">ROG STRIX-Force RTX 2080-O8G</p>
+                 <p class="ppp">RW推荐，信仰猛禽】全新超频软件，RGB神光同步，升级镜面直触感，官方原盒正品</p>
+             </div>    
+             <div class="dh">    
+                    <div class="home">
+                        <span class="hh">¥6999</span>&nbsp;&nbsp;
+                        <span class="hhh">¥7999</span>&nbsp;&nbsp;
+                        <span class="hhhh">立省1000元</span>
+                     </div>    
+                    <button>马上抢</button>                   
+            </div> 
+            <div class="shengyu">
+                <span>我是一个定时器</span>	
+            </div>	                
+      </li>    -->
+
+
+    </div>
+
+</body>
+
+</html>
+<script src="src/ES5JS/cookie.js"></script>
+<script src="src/ES5JS/jquery-1.11.3.js"></script>
+<script>
+
+    //定时器
+    var nowdate = new Date();
+    var fuldate = new Date(nowdate.getFullYear(), nowdate.getMonth(), nowdate.getDate() + 5);
+    setInterval(function () {
+        var nowDate = new Date();
+        var cdate = fuldate - nowDate;
+        var day = parseInt(cdate / 86400000);
+        if (day < 10) {
+            day = "0" + day;
+        } else {
+            day = day;
+        }
+        var hours = parseInt(cdate % 86400000 / 3600000);
+        if (hours < 10) {
+            hours = "0" + hours;
+        } else {
+            hours = hours;
+        }
+        var minutes = parseInt(cdate % 86400000 % 3600000 / 60000);
+        if (minutes < 10) {
+            minutes = "0" + minutes;
+        } else {
+            minutes = minutes;
+        }
+        var seconds = parseInt(cdate % 86400000 % 3600000 % 60000 / 1000);
+        if (seconds < 10) {
+            seconds = "0" + seconds;
+        } else {
+            seconds = seconds;
+        }
+
+        $(".shengyu span").html("剩余：<font color=red>" + day + "</font>天<font color=red>" + hours + "</font>小时<font color=red>" + minutes + "</font>分钟<font color=red>" + seconds + "</font>秒");
+    })
+
+
+
+    //动态添加效果
+    window.onload = function () {
+        let hrefStr = location.href;
+        //http://127.0.0.1/xm_ZGCde/shoping.html?pid=shou1&classify=classify003
+        let arr = hrefStr.split("?")[1].split("&");
+        let pid = arr[0].split("=")[1];
+        let classify = arr[1].split("=")[1];
+        //  console.log(pid, classify)
+
+
+        $.ajax({
+            url: "src/sass/data.json",
+            type: "get",
+            success: function (json) {
+                let proList = json[classify].list;
+                let str = "";
+                proList.forEach((pro) => {
+                    if (pro.id == pid) {
+                        str = `<li class="san_li">
+                           
+                            <div class="pic_1">
+                  
+                                <img src="images/${pro.src}" alt="">		
+                            </div>
+                    
+                            <div class="dp">
+                            <p class="pp">ROG STRIX-Force RTX 2080-O8G</p>
+                            <p class="ppp">RW推荐，信仰猛禽】全新超频软件，RGB神光同步，升级镜面直触感，官方原盒正品</p>
+                        </div>  
+                          <div class="dh">    
+                            <div class="home">
+                                <span class="hh">${pro.nowprice}</span>&nbsp;&nbsp;
+                                <span class="hhh">${pro.oldprice}</span>&nbsp;&nbsp;
+                                <span class="hhhh">${pro.cj}</span>
+                            </div>         
+                                   <button>马上抢</button>
+                                </div> 
+                          <div class="shengyu">
+                                      <span>我是一个定时器</span>	
+                          </div>	
+                            
+                        </li>
+                  
+                                  `;
+                        $(".shopinfo").html(str);
+                        return;
+                    }
+                })
+            }
+        })
+
+    }
+</script>

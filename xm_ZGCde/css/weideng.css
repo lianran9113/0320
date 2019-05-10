@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+	background: #454545;
+}
+.box-a{
+	height:30px;
+	width:286px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	margin:20px auto;
+	margin-top:90px;
+	font-size:18px;
+}
+
+.box-b img{
+		display: block;
+		width:286px;
+		height:286px;
+		margin-left:536px;
+		
+}
+.box-c{
+		width:300px;
+		height:60px;
+		border-radius:30px;
+		background: #232323;
+		font-size:9x;
+		text-align: center;
+		line-height:30px;
+		color: #fff;
+		margin:50px 0 0 536px;
+}
